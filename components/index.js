@@ -9,3 +9,4 @@ export { default as Button } from './Button';
 export { default as TimeLine } from './TimeLine';
 export { default as Metrics } from './Metrics';
 export { default as A } from './A';
+export { default as MainContainer } from './MainContainer';
