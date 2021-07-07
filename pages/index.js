@@ -3,7 +3,7 @@ import '../I18n';
 
 import styled from "styled-components";
 
-import {Services, Statistic, Table, Schedule, Metrics, Button, Footer} from "../components";
+import {Services, Statistic, Table, Schedule, Metrics, Button, Footer, Map} from "../components";
 import Head from "next/head";
 import MainContainer from "../components/MainContainer";
 
@@ -41,7 +41,7 @@ const Home = () => {
 				<Statistic/>
 				<Table/>
 				<Services/>
-				{/*<Map />*/}
+				<Map />
 				<Metrics/>
 				<Schedule/>
 				<BtnSection>
