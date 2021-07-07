@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from "./pages/index";
+import MainContainer from "../components/MainContainer";
 
 it('render without crashing', () => {
 	const element = document.createElement('div');
-	ReactDOM.render(<Home />, element);
+	ReactDOM.render = () => {(<MainContainer />, element)};
 	ReactDOM.unmountComponentAtNode(element);
 });

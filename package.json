@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest --env=jsdom"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.1",
