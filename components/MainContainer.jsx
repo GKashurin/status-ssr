@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-// import Logo from "../public/static/Easy_logo.png";
+import Logo from "../public/static/Easy_logo.png" //Падали тесты, решение тут: jestjs.io/docs/webpack
 import Button from "./Button";
 import styled from "styled-components";
 
@@ -20,10 +20,10 @@ const MainContainer = ({children, lngs, i18n}) => {
 			<HeaderStyle>
 				<Link href="/">
 					<a>
-						{/*<Image*/}
-						{/*	src={Logo}*/}
-						{/*	alt="Logo"*/}
-						{/*/>*/}
+						<Image
+							src={Logo}
+							alt="Logo"
+						/>
 					</a>
 				</Link>
 
